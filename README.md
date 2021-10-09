@@ -14,14 +14,14 @@ Now it is possible to view the robot using rviz
 
 ### Launch rviz with joint_state_publisher_gui:
 
-roslaunch navvis_description navvis_launch &
+```roslaunch navvis_description navvis_launch &```
 
 ### Launch rviz with joint_state_publisher (no GUI):
 
-```roslaunch navvis_description navvis_launch use_jsp_gui:=false & ```
+```roslaunch navvis_description navvis_launch use_jsp_gui:=false &```
 
 #### URDF or XACRO
 
 There is another argument that can be passed in the roslaunch command to switch between running the URDF or XACRO definition of the robot
 
-use_xacro:=true/false
+```use_xacro:=true/false```
