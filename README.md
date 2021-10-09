@@ -18,7 +18,7 @@ roslaunch navvis_description navvis_launch &
 
 ### Launch rviz with joint_state_publisher (no GUI):
 
-roslaunch navvis_description navvis_launch use_jsp_gui:=false &
+ '''roslaunch navvis_description navvis_launch use_jsp_gui:=false & '''
 
 #### URDF or XACRO
 
